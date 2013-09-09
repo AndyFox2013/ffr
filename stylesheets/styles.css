@@ -727,7 +727,7 @@ dt {
 }
 #sidebar nav li a {
   color: white;
-  border: 1px solid #5d910b;
+  border: 5px solid #08088A;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
   background: -webkit-linear-gradient(#00b9ff, #0038ff);
   background: -moz-linear-gradient(#00b9ff, #0038ff);
@@ -753,14 +753,15 @@ dt {
   text-align: left;
 }
 #sidebar nav li a:hover {
+  color: red;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
-  background: -webkit-linear-gradient(#749619, #527f0e);
-  background: -moz-linear-gradient(#749619, #527f0e);
-  background: -o-linear-gradient(#749619, #527f0e);
-  background: -ms-linear-gradient(#749619, #527f0e);
-  background: linear-gradient(#749619, #527f0e);
-  background-color: #659e10;
-  border: 1px solid #527f0e;
+  background: -webkit-linear-gradient(#000000, #0038ff);
+  background: -moz-linear-gradient(#000000, #0038ff);
+  background: -o-linear-gradient(#000000, #0038ff);
+  background: -ms-linear-gradient(#000000, #0038ff);
+  background: linear-gradient(#000000, #0038ff);
+  background-color: #000000;
+  border: 1px solid #000000;
   -moz-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -webkit-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
   -o-box-shadow: inset 0px 1px 1px rgba(0, 0, 0, 0.2), 0px 1px 0px rgba(0, 0, 0, 0);
