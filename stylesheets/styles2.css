@@ -117,22 +117,16 @@ position: relative;
 height: 60px;
 width: 975px;
 margin-top: -17px;
-background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #749619), color-stop(100%, #527f0e));
-background: -webkit-linear-gradient(#01DFD7, #0038ff);
-background: -moz-linear-gradient(#01DFD7, #0038ff);
-background: -o-linear-gradient(#01DFD7, #0038ff);
-background: -ms-linear-gradient(#01DFD7, #0038ff);
-background: linear-gradient(#01DFD7, #0038ff);
-background-color: #01DFD7;
+    background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(69,69,69)));
+    background : -moz-linear-gradient(top, rgb(168,168,168), rgb(69,69,69));
 }
 
 #submenu nav{
   max-width: 650px;
-  margin: 0 auto;
+  margin: auto;
   padding: 0 10px;
-  background: blue;
   margin: 6px auto;
-  margin-left: 30px;
+  margin-left: 225px;
 }
 
 #submenu nav li{
@@ -143,14 +137,10 @@ background-color: #01DFD7;
 }
 
 #submenu nav li a{
-  color: white;
+  color: black;
   border: 1px solid #0404B4;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #DF7401));
-  background: -webkit-linear-gradient(#DF0174, #B4045F);
-  background: -moz-linear-gradient(#DF0174, #B4045F);
-  background: -o-linear-gradient(#DF0174, #B4045F);
-  background: -ms-linear-gradient(#DF0174, #B4045F);
-  background: linear-gradient(#DF0174, #B4045F);
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(#FF0000), to(rgba(0,0, 0, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
   padding: 10px 12px;
   margin-top: 7px;
   line-height: 14px;
@@ -164,22 +154,28 @@ background-color: #01DFD7;
 }
 
 #submenu nav li a:hover{
-  color: white;
-  border: 1px solid #0404B4;
+  color: red;
+  border: 1px solid white;
   background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
-  background: -webkit-linear-gradient(#FF8000, #DF7401);
-  background: -moz-linear-gradient(#FF8000, #DF7401);
-  background: -o-linear-gradient(#FF8000, #DF7401);
-  background: -ms-linear-gradient(#FF8000, #DF7401);
-  background: linear-gradient(#FF8000, #DF7401);
+  background: -webkit-linear-gradient(#00ECFE, #DF7401);
+  background: -moz-linear-gradient(#00ECFE, #DF7401);
+  background: -o-linear-gradient(#00ECFE, #DF7401);
+  background: -ms-linear-gradient(#00ECFE, #DF7401);
+  background: linear-gradient(#00ECFE, #DF7401);
   padding: 10px 12px;
   margin-top: 7px;
   line-height: 14px;
-  font-size: 14px;
+  font-size: 18px;
+  font-style: oblique;
   display: inline-block;
   text-align: center;
-  height:
-  width:
+  height: ;
+}
+
+#submen nav li.active {
+	float: left;
+	margin-left: 6px;
+	border: dashed 2px red;
 }
 
 #submenu nav li.page {
@@ -188,5 +184,22 @@ background-color: #01DFD7;
 }
 
 ul{
-list-style-type: none;
+	list-style-type: none;
+}
+
+#indexheader{
+	background-image: url("../images/textbg.png");
+	width: 670px;
+	margin-left: 155px;
+	margin-top: 70px;
+}
+
+#indexheader h1{
+	font-size: 30px;
+	text-align: center;
+	margin-left: 17px
+}
+
+#indexheader.racename{
+	text-align: center;
 }
