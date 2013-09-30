@@ -114,7 +114,7 @@ background-color: #01DFD7;
 }
 #submenu {
 position: relative;
-height: 60px;
+height: 80px;
 width: 975px;
 margin-top: -17px;
     background : -webkit-gradient(linear, left top, left bottom, from(rgb(168,168,168)), to(rgb(69,69,69)));
@@ -137,12 +137,12 @@ margin-top: -17px;
 }
 
 #submenu nav li a{
-  color: black;
+  color: white;
   border: 1px solid #0404B4;
-    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(#FF0000), to(rgba(0,0, 0, 1)) );
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(#00ABFF), to(rgba(0,0, 0, 1)) );
     background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(31,169,244,1) 0%, rgba(0,28,78, 1) 100%);
-  padding: 10px 12px;
-  margin-top: 7px;
+  padding: 15px 12px;
+  margin-top: 9px;
   line-height: 14px;
   font-size: 14px;
   display: inline-block;
@@ -154,19 +154,14 @@ margin-top: -17px;
 }
 
 #submenu nav li a:hover{
-  color: red;
+  color: white;
   border: 1px solid white;
-  background: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #93bd20), color-stop(100%, #659e10));
-  background: -webkit-linear-gradient(#00ECFE, #DF7401);
-  background: -moz-linear-gradient(#00ECFE, #DF7401);
-  background: -o-linear-gradient(#00ECFE, #DF7401);
-  background: -ms-linear-gradient(#00ECFE, #DF7401);
-  background: linear-gradient(#00ECFE, #DF7401);
-  padding: 10px 12px;
-  margin-top: 7px;
+    background: -webkit-gradient(radial, 50% 100%, 10, 50% 50%, 90, from(#FF0000), to(rgba(0,0, 0, 1)) );
+    background: -moz-radial-gradient(center 80px 45deg, circle cover, rgba(#FF0000) 0%, rgba(0,28,78, 1) 100%);
+  padding: 15px 12px;
+  margin-top: 9px;
   line-height: 14px;
   font-size: 18px;
-  font-style: oblique;
   display: inline-block;
   text-align: center;
   height: ;
